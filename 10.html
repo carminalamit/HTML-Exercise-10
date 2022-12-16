@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Employee Interests Survey Form</h1>
+    <form>
+        <label for="name">
+            Enter your name:
+        </label>
+        <input type="text" id="name" name="name" value="">
+    </form>
+    <form>
+        <label for="department">
+            Enter your department:
+        </label>
+        <input type="text" id="department" name="department" value="">
+    </form>
+    <form>
+        <label for="about">
+            Tell us a little about yourself:
+        </label>
+        <textarea name="about" id="about" cols="20" rows="3"></textarea>
+    </form>
+    <form>
+        <label>Do you exercise at home?</label>
+        <input type="radio" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no">
+        <label for="no">No</label>
+    </form>
+    <form>
+        <label>How do you like to read about your favorite topics?</label><br>
+        <input type="checkbox" id="books">
+        <label for="books">Books</label>
+        <input type="checkbox" id="or">
+        <label for="or">Online Resources</label>
+        <input type="checkbox" id="phone">
+        <label for="phone">Phone Apps</label>
+        <input type="checkbox" id="magazine">
+        <label for="magazine">Magazines</label>
+    </form>
+    <form>
+        <label for="movie">What genre of movies do you like?</label>
+        <select name="movie" id="movie" size="1">
+            <option value="comedy">Comedy</option>
+        </select>
+    </form>
+    <form>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html> 
